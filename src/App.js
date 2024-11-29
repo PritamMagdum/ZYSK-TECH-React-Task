@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 import TestimonialSection from "./Components/TestimonialSection";
 import logo from "./logo.svg";
 // import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -17,10 +17,6 @@ function App() {
       <TestimonialSection />
       <AdvanceAnalyticsSection />
       <FreqAskQuestions />
-      <Routes>
-        {/* <Route path="/" element={} />
-        <Route path="/result" element={<Resu />} /> */}
-      </Routes>
     </Router>
   );
 }

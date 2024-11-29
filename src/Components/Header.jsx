@@ -41,7 +41,7 @@ const Header = () => {
       </nav>
       {/* Desktop */}
       <nav className="bg-[#FFFFFF] p-4 px-20 hidden md:block">
-        <div className="container mx-auto flex  gap-5 items-center justify-between border border-rose-500 ">
+        <div className="container mx-auto flex  gap-5 items-center justify-between ">
           <div className="flex gap-4 ">
             <div className="flex justify-center items-center gap-2 text-white text-lg font-bold">
               <img src={Logo} alt="img" className="w-[32px] h-[32px]" />

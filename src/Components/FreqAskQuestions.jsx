@@ -42,7 +42,7 @@ const FreqAskQuestions = () => {
   ];
 
   return (
-    <div className="border border-green-300 py-24">
+    <div className=" py-24">
       <section className="bg-white dark:bg-gray-900">
         <div className="container max-w-4xl px-6 py-10 mx-auto">
           <div className="flex flex-col gap-4">

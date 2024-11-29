@@ -17,7 +17,7 @@ const AdvanceAnalyticsSection = () => {
             Cutting-edge features for advanced analytics
           </h1>
         </div>
-        <div className="md:w-[560px] text-center">
+        <div className="md:w-[560px] text-center text-lg">
           <p>
             Powerful, self-serve product and growth analytics to help you
             convert, engage, and retain more users. Trusted by over 4,000

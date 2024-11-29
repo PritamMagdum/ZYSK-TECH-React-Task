@@ -1,5 +1,6 @@
 import React from "react";
 import AnalyticsImage from "../assets/images/AnalyticsImage.png";
+import ArrowRight from "../assets/images/ArrowRight.png";
 import Company1 from "../assets/companyImages/company1.png";
 import Company2 from "../assets/companyImages/company2.png";
 import Company3 from "../assets/companyImages/company3.png";
@@ -11,11 +12,16 @@ const AnalyticsSection = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-24 gap-16 px-4">
       <div className="flex flex-col justify-center items-center gap-[24px]">
-        <div className="w-fit flex text-[#6941C6] bg-[#E9D7FE] py-1 px-1 rounded-2xl gap-1 items-center border border-[#6941C6]">
+        <div className="w-fit flex text-[#6941C6] bg-[#F9F5FF] py-1 px-1 rounded-2xl gap-1 items-center border border-[#6941C6]">
           <span className="border rounded-xl px-2 bg-white border-[#6941C6]">
             New features
           </span>
-          <h1 className="px-1">Check out the team dashboard</h1>
+          <h1 className="px-1 flex items-center gap-2">
+            Check out the team dashboard{" "}
+            <div>
+              <img src={ArrowRight} alt="" />
+            </div>
+          </h1>
         </div>
         <div>
           <h1 className="text-5xl md:text-5xl font-semibold text-center">

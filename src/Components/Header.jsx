@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/Sheet";
 import MenuIcon from "../assets/images/menuIcon.png";
 import Logo from "../assets/images/Logo.png";
 import UserImage from "../assets/images/UserImage.png";
+import ArrowDown from "../assets/images/ArrowDown.png";
 import NavItems from "./NavItems";
 
 const Header = () => {
@@ -52,18 +53,28 @@ const Header = () => {
             </Link>
             <div className="flex gap-[15px] items-center">
               <Link className="mx-2.5">Home</Link>
-              <Link className="mx-2.5">Products</Link>
-              <Link className="mx-2.5">Resources</Link>
+              <Link className="mx-2.5 flex  justify-center items-center gap-2">
+                <span>Products</span>
+                <div>
+                  <img src={ArrowDown} alt="" className="h-[5px] w-2.5" />
+                </div>
+              </Link>
+              <Link className="mx-2.5 flex  justify-center items-center gap-2">
+                <span>Resources</span>
+                <div>
+                  <img src={ArrowDown} alt="" className="h-[5px] w-2.5" />
+                </div>
+              </Link>
               <Link className="mx-2.5">Pricing</Link>
             </div>
           </div>
-          <div>
+          <Link>
             <img
               src={UserImage}
               alt="USER"
               className="h-[40px] w-[40px] rounded-full"
             />
-          </div>
+          </Link>
         </div>
       </nav>
     </>

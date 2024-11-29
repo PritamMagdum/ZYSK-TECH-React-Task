@@ -126,6 +126,10 @@ const FreqAskQuestions = () => {
             </Link>
           </div>
         </div>
+
+        <div className="flex justify-center">
+          <div className="border-b-2 w-[85%] mt-24"></div>
+        </div>
       </section>
     </div>
   );

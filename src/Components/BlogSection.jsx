@@ -27,7 +27,7 @@ const BlogSection = () => {
       </div>
 
       {/* Cards */}
-      <div className="px-9 flex justify-center">
+      <div className="px-9 flex flex-col justify-center">
         <div className="flex flex-wrap justify-center gap-8">
           <div className=" w-[370px] h-[440px] flex flex-col gap-4">
             <div>
@@ -138,6 +138,11 @@ const BlogSection = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center sm:hidden py-12">
+          <Link className="px-32 py-3 bg-[#7F56D9] text-center rounded-md text-white">
+            View all posts
+          </Link>
         </div>
       </div>
     </div>

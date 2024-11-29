@@ -46,7 +46,7 @@ const FreqAskQuestions = () => {
       <section className="bg-white dark:bg-gray-900">
         <div className="container max-w-4xl py-10 mx-auto">
           <div className="flex flex-col gap-4">
-            <h1 className=" text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">
+            <h1 className=" text-2xl font-bold text-center text-gray-800 lg:text-3xl dark:text-white">
               Frequently Asked Questions
             </h1>
             <h1 className="text-center text-lg">

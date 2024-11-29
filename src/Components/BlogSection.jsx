@@ -14,7 +14,7 @@ const BlogSection = () => {
       <div className="flex justify-between gap-16  lg:px-12 w-[85%]">
         <div className="flex flex-col gap-2">
           <span className="text-[#6941C6] font-semibold">Our blogs</span>
-          <h1 className="text-2xl font-semibold">Latest blog posts</h1>
+          <h1 className="text-3xl font-semibold">Latest blog posts</h1>
           <h1 className="text-lg">
             Tool and strategies modern teams need to help their companies grow.
           </h1>

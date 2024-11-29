@@ -4,7 +4,7 @@ import UserImage from "../assets/images/UserImage.png";
 
 const TestimonialSection = () => {
   return (
-    <div className="flex justify-center py-24">
+    <div className="flex justify-center py-24 bg-[#F9FAFB]">
       <div className="px-8 flex flex-col items-center gap-8 md:w-[1216px] md:h-[360px]">
         <div>
           <img src={SysyphusLogo} alt="" className="h-10" />

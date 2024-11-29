@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       {/* Mobile */}
-      <nav className="md:hidden flex justify-between px-5 py-3">
+      <nav className="md:hidden flex justify-between px-5 py-3 border-b-2">
         <div className="flex justify-center items-center gap-2 text-white text-lg font-bold">
           <img src={Logo} alt="img" className="w-[32px] h-[32px]" />
           <span className="font-bold text-black">Untitled UI</span>
@@ -32,7 +32,10 @@ const Header = () => {
               className="w-fit"
               onClick={() => setSheetOpen(false)}
             >
-              <img src={Logo} alt="logo" width={50} height={50} />
+              <Link className="flex justify-center items-center gap-2 text-white text-lg font-bold">
+                <img src={Logo} alt="img" className="w-[32px] h-[32px]" />
+                <span className="font-bold text-black">Untitled UI</span>
+              </Link>
             </Link>
             <hr className="border border-gray-50" />
             <NavItems setOpen={setSheetOpen} />
@@ -40,13 +43,13 @@ const Header = () => {
         </Sheet>
       </nav>
       {/* Desktop */}
-      <nav className="bg-[#FFFFFF] p-4 px-20 hidden md:block">
+      <nav className="bg-[#FFFFFF] p-4 px-20 hidden md:block border-b-2">
         <div className="container mx-auto flex  gap-5 items-center justify-between ">
-          <div className="flex gap-4 ">
-            <div className="flex justify-center items-center gap-2 text-white text-lg font-bold">
+          <div className="flex gap-10 text-lg">
+            <Link className="flex justify-center items-center gap-2 text-white text-lg font-bold">
               <img src={Logo} alt="img" className="w-[32px] h-[32px]" />
               <span className="font-bold text-black">Untitled UI</span>
-            </div>
+            </Link>
             <div className="flex gap-[15px] items-center">
               <Link className="mx-2.5">Home</Link>
               <Link className="mx-2.5">Products</Link>

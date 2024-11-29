@@ -42,14 +42,14 @@ const FreqAskQuestions = () => {
   ];
 
   return (
-    <div className=" py-24">
+    <div className=" py-24 px-4">
       <section className="bg-white dark:bg-gray-900">
-        <div className="container max-w-4xl px-6 py-10 mx-auto">
+        <div className="container max-w-4xl py-10 mx-auto">
           <div className="flex flex-col gap-4">
             <h1 className=" text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">
               Frequently Asked Questions
             </h1>
-            <h1 className="text-center">
+            <h1 className="text-center text-lg">
               Everything you need to know about the product and billing.
             </h1>
           </div>
@@ -60,13 +60,13 @@ const FreqAskQuestions = () => {
               return (
                 <div
                   key={index}
-                  className="border-2 border-gray-100 rounded-lg dark:border-gray-700"
+                  className="border-b-2 border-gray-100 dark:border-gray-700"
                 >
                   <button
                     onClick={() => toggleFAQ(index)}
                     className="flex items-center justify-between w-full p-8"
                   >
-                    <h1 className="font-semibold text-gray-700 dark:text-white">
+                    <h1 className="font-medium text-lg text-gray-700 dark:text-white">
                       {faq.question}
                     </h1>
                     <span
@@ -99,7 +99,7 @@ const FreqAskQuestions = () => {
                   {isOpen && (
                     <>
                       <hr className="border-gray-200 dark:border-gray-700" />
-                      <p className="p-8 text-sm text-gray-500 dark:text-gray-300">
+                      <p className="p-8 text-md text-gray-500 dark:text-gray-300">
                         {faq.answer}
                       </p>
                     </>
@@ -109,13 +109,13 @@ const FreqAskQuestions = () => {
             })}
           </div>
         </div>
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col items-center rounded-2xl gap-8 py-8 px-7 bg-[#F9FAFB] md:mx-24">
           <div>
             <img src={AvatarGroup} alt="" className="w-[120px] h-[56px]" />
           </div>
-          <div className="flex flex-col items-center gap-1 ">
+          <div className="flex flex-col items-center gap-1 px-4">
             <h1 className="font-medium">Still have questions?</h1>
-            <h1>
+            <h1 className="text-center">
               Can’t find the answer you’re looking for? Please chat to our
               friendly team.
             </h1>

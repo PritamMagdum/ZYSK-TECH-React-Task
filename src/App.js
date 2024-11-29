@@ -1,5 +1,6 @@
 import AdvanceAnalyticsSection from "./Components/AdvanceAnalyticsSection";
 import AnalyticsSection from "./Components/AnalyticsSection";
+import BlogSection from "./Components/BlogSection";
 import FeaturesSection from "./Components/FeaturesSection";
 import FreqAskQuestions from "./Components/FreqAskQuestions";
 import Header from "./Components/Header";
@@ -17,6 +18,7 @@ function App() {
       <TestimonialSection />
       <AdvanceAnalyticsSection />
       <FreqAskQuestions />
+      <BlogSection />
     </Router>
   );
 }

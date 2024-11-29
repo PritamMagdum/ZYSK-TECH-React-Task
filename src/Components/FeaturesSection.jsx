@@ -8,22 +8,24 @@ import FeatureIcon6 from "../assets/icons/FeatureIcon6.png";
 
 const FeaturesSection = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 px-4">
       <div className="flex flex-col ">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
-            <div className="text-center mx-auto mb-12 lg:mb-20 md:w-[768px] md:h-[160px]">
+            <div className="text-center mx-auto mb-12 lg:mb-20 md:w-[768px] md:h-[160px] flex flex-col items-center gap-3">
               <span className="font-semibold text-lg mb-2 block text-[#6941C6]">
                 Features
               </span>
-              <h2 className="text-3xl">
+              <h2 className="text-3xl font-semibold">
                 Analytics that feels like it's from the future
               </h2>
-              <h1 className="text-base text-grey-500 h-[60px]">
-                Powerful, self-serve product and growth analytics to help you
-                convert, engage, and retain more users. Trusted by over 4,000
-                startups.
-              </h1>
+              <div className="md:w-[650px] text-center text-lg">
+                <p>
+                  Powerful, self-serve product and growth analytics to help you
+                  convert, engage, and retain more users. Trusted by over 4,000
+                  startups.
+                </p>
+              </div>
             </div>
           </div>
         </div>

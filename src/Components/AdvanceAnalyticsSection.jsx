@@ -8,7 +8,7 @@ import FeatureIcon3 from "../assets/icons/FeatureIcon3.png";
 const AdvanceAnalyticsSection = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-24 gap-16">
-      <div className="flex flex-col justify-center items-center gap-[24px]">
+      <div className="flex flex-col justify-center items-center gap-[24px] px-4">
         <span className="border text-[#6941C6] rounded-xl px-2 bg-[#F9F5FF] border-[#E9D7FE]">
           New features
         </span>

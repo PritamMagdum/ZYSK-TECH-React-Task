@@ -9,7 +9,7 @@ import Company6 from "../assets/companyImages/company5.png";
 
 const AnalyticsSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center pt-24 gap-16">
+    <div className="flex flex-col justify-center items-center pt-24 gap-16 px-4">
       <div className="flex flex-col justify-center items-center gap-[24px]">
         <div className="w-fit flex text-[#6941C6] bg-[#E9D7FE] py-1 px-1 rounded-2xl gap-1 items-center border border-[#6941C6]">
           <span className="border rounded-xl px-2 bg-white border-[#6941C6]">
@@ -18,18 +18,18 @@ const AnalyticsSection = () => {
           <h1 className="px-1">Check out the team dashboard</h1>
         </div>
         <div>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl md:text-5xl font-semibold text-center">
             Beautiful analytics to grow smarter
           </h1>
         </div>
-        <div className="w-[560px] text-center">
+        <div className="md:w-[560px] text-center text-lg">
           <p>
             Powerful, self-serve product and growth analytics to help you
             convert, engage, and retain more users. Trusted by over 4,000
             startups.
           </p>
         </div>
-        <div className="flex gap-3">
+        <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-fit">
           <button className="px-4 py-2 border border-gray-200 rounded-lg">
             Demo
           </button>
@@ -40,17 +40,14 @@ const AnalyticsSection = () => {
       </div>
       <div>
         <div>
-          <div className="px-4 ">
+          <div className="">
             <img
               src={AnalyticsImage}
               alt="Analytics"
               className="md:w-[1216px] md:h-[810px] rounded-xl border-8 border-black "
             />
           </div>
-          <div
-            className="flex flex-col items-center gap-8 py-24 md:-translate-y-64 md:-mb-64 bg-white"
-            style={{ borderBottom: "1px solid gray" }}
-          >
+          <div className="flex flex-col items-center gap-8 py-24 md:-translate-y-64 md:-mb-64 bg-white border-b-2">
             <h1>Join 4,000+ companies already growing</h1>
             <div className="flex flex-wrap justify-center gap-8 px-4">
               <img

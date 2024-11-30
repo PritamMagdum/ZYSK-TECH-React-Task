@@ -17,7 +17,8 @@ const FreqAskQuestions = () => {
     },
     {
       question: "Can I change my plan later?",
-      answer: "",
+      answer:
+        "Our opening hours are Monday to Friday, 9:00 AM to 6:00 PM, and Saturday, 10:00 AM to 4:00 PM.",
     },
     {
       question: "What is your cancellation policy?",
@@ -43,10 +44,10 @@ const FreqAskQuestions = () => {
 
   return (
     <div className=" py-24 px-4">
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white">
         <div className="container max-w-4xl py-10 mx-auto">
           <div className="flex flex-col gap-4">
-            <h1 className=" text-2xl font-bold text-center text-gray-800 lg:text-3xl dark:text-white">
+            <h1 className=" text-2xl font-bold text-center lg:text-3xl">
               Frequently Asked Questions
             </h1>
             <h1 className="text-center text-lg">
@@ -58,17 +59,12 @@ const FreqAskQuestions = () => {
             {faqs.map((faq, index) => {
               const isOpen = openIndex === index;
               return (
-                <div
-                  key={index}
-                  className="border-b-2 border-gray-100 dark:border-gray-700"
-                >
+                <div key={index} className="border-b-2 border-gray-100">
                   <button
                     onClick={() => toggleFAQ(index)}
                     className="flex items-center justify-between w-full p-8"
                   >
-                    <h1 className="font-medium text-lg text-gray-700 dark:text-white">
-                      {faq.question}
-                    </h1>
+                    <h1 className="font-medium text-lg">{faq.question}</h1>
                     <span
                       className={`${
                         isOpen
@@ -98,10 +94,8 @@ const FreqAskQuestions = () => {
                   </button>
                   {isOpen && (
                     <>
-                      <hr className="border-gray-200 dark:border-gray-700" />
-                      <p className="p-8 text-md text-gray-500 dark:text-gray-300">
-                        {faq.answer}
-                      </p>
+                      <hr className="border-gray-200 " />
+                      <p className="p-8 text-md text-gray-500">{faq.answer}</p>
                     </>
                   )}
                 </div>

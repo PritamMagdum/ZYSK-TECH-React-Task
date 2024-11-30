@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## 🌟 About the Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a dummy website designed by **Zysk Technologies** as an assignment for candidates.  
+I have completed this website following the requirements and guidelines provided by them.  
+I thoroughly enjoyed working on this project, as it allowed me to showcase my skills and learn new concepts along the way.  
+I sincerely thank **Zysk Technologies** for giving me the opportunity to showcase my skills through this assignment.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+Experience it live here: [Click Here](https://zysk-tech-pritam-magdum.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Fully **responsive** design for all screen sizes.
+- For styling I used **Tailwind CSS** for better User Interface
+- For Mobile Navigation I used **Shadcn UI** sheet to navigate webpages on mobile devices
 
-### `npm test`
+## 📸 Screenshots and Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Desktop View
 
-### `npm run build`
+ - **Home Page**
+   
+![Desktop Home](https://github.com/user-attachments/assets/b78339ae-2d5e-44dc-bf07-9901167b97a5)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Analytics Section**
+  
+![Desktop Analytics](https://github.com/user-attachments/assets/0954a1fe-aefe-4573-b586-d47b56cfaac5)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Blog Section**
+  
+![Desktop Blog](https://github.com/user-attachments/assets/37073430-edac-4166-940e-43321ec94a0f)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Mobile View
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Mobile Home](https://github.com/user-attachments/assets/67449045-5875-4f40-b13f-6bb78e9cf0bb)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![MobileAnalytics](https://github.com/user-attachments/assets/69322cd7-7b15-40ee-ab5a-766cc2a07634)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![MobileBlog](https://github.com/user-attachments/assets/5c5799ba-ac42-47d1-ac13-6b47f3c7a113)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Technologies Used
 
-## Learn More
+- **Frontend**: React, Tailwind CSS, Shadcn UI
+- **Deployment**: Vercel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/PritamMagdum/ZYSK-TECH-React-Task.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd zysk-tech-react-task
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+## 💡 Challenges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Responsive Design**: Ensuring a seamless experience across all devices.  
+- **Performance Optimization**: Reduced page load times by ReactJS and TailwindCSS.

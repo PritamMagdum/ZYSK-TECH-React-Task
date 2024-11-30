@@ -12,7 +12,7 @@ const AnalyticsSection = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-24 gap-16 px-4">
       <div className="flex flex-col justify-center items-center gap-[24px]">
-        <div className="w-fit flex text-[#6941C6] bg-[#F9F5FF] py-1 px-1 rounded-2xl gap-1 items-center border border-[#6941C6]">
+        <div className="w-fit flex text-[#6941C6] font-medium text-sm sm:text-base bg-[#F9F5FF] py-1 px-1 rounded-2xl gap-1 items-center border border-[#6941C6]">
           <span className="border rounded-xl px-2 bg-white border-[#6941C6]">
             New features
           </span>

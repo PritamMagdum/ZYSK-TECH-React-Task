@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
-    <div className="bg-[#F9FAFB] py-24">
+    <div className="bg-[#F9FAFB] py-24 px-4">
       <div className="flex flex-col items-center gap-8">
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-3xl font-semibold">Start your free trial</h1>
